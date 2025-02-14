@@ -35,6 +35,30 @@ nav ul { list-style-type: none;
 }
 .studio { font-style: italic; 
 }
+
+table, th, td {
+	width: 60%; 	
+	margin: auto;
+	border: 1px solid purple;
+	border-collapse: collapse;
+	margin-bottom: 1em ;
+	
+  }
+
+  th, td {
+	background-color: #9BC1C2;
+	border:  1px solid purple;
+	padding: 5px;
+	
+  }
+  caption {
+	margin: 1em ;
+	font: 120%;
+  }
+h3{
+	width: 20%; 	
+	margin: auto;
+}
 footer { background-color: #9BC1C2;
        font-size: small;
 	   font-style: italic;
