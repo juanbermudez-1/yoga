@@ -4,7 +4,7 @@ body { background-color: #3F2860;
       color: #3F2860;
 	  font-family: Verdana, Arial, sans-serif;
 }
-header { background-color: #9BC1C2;
+header { background-color: #0aadb3;
        background-image: url(lilyheader.jpg);
 	   background-position: right;
 	   background-repeat: no-repeat;
@@ -36,30 +36,33 @@ nav ul { list-style-type: none;
 .studio { font-style: italic; 
 }
 
-table, th, td {
+table{
 	width: 60%; 	
 	margin: auto;
-	border: 1px solid purple;
+	border: 1px solid #3F2860;
 	border-collapse: collapse;
 	margin-bottom: 1em ;
 	
   }
 
   th, td {
-	background-color: #9BC1C2;
-	border:  1px solid purple;
+	border:  1px solid #3F2860;
 	padding: 5px;
 	
   }
+  tr:nth-of-type(even){
+	background-color: #9BC1C2 ;
+  }
   caption {
 	margin: 1em ;
-	font: 120%;
+	font-size: 120% ;
+	font-weight: bold;
   }
 h3{
 	width: 20%; 	
 	margin: auto;
 }
-footer { background-color: #9BC1C2;
+footer { background-color: #21a9ad;
        font-size: small;
 	   font-style: italic;
 	   text-align: center;
